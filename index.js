@@ -92,7 +92,7 @@ console.log(`\x1b[36m%s\x1b[0m`, `|    Verified Params, Checking Gateway Access`
  console.log(`\x1b[36m%s\x1b[0m`, `|    Deploying Cache Load`);
  console.log(`\x1b[36m%s\x1b[0m`, `|    Deploying Completed. System Operational.`);
   updateStatusAndSendMessages();
-
+}
   setInterval(() => {
     updateStatusAndSendMessages();
   }, 10000);
