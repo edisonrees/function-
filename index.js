@@ -1,6 +1,15 @@
 /**
+ ██████╗░████████╗██╗░░██╗           
+ ██╔══██╗╚══██╔══╝╚██╗██╔╝          
+ ██████╔╝░░░██║░░░░╚███╔╝░          
+ ██╔══██╗░░░██║░░░░██╔██╗░          
+ ██║░░██║░░░██║░░░██╔╝╚██╗          
+ ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
+  GIT : https://github.com/RTX-GAMINGG/Bot-ghost-status-remover-by-RTX
+  DISCORD SERVER : https://discord.gg/FUEHs7RCqz
+  YOUTUBE : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
  * **********************************************
- *   Code by Edison Rees
+ *   Code by RTX GAMING
  * **********************************************
  */
 
@@ -22,13 +31,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-console.log(`Copy 200 Listening On localhost:${port}`);
-  console.log(`Data Valued 200`);
-
+  console.log(`🔗 Listening to RTX: http://localhost:${port}`);
+  console.log(`🔗 Powered By RTX`);
 });
 
 
-const statusMessages = ["Watching Discord"];
+const statusMessages = ["Watching You"];
 
 
 let currentIndex = 0;
@@ -37,7 +45,7 @@ const channelId = '';
 async function login() {
   try {
     await client.login(process.env.TOKEN);
-    console.log(`\x1b[36m%s\x1b[0m`, `|     Verified as ${client.user.tag`);
+    console.log(`\x1b[36m%s\x1b[0m`, `|    🐇 Logged in as ${client.user.tag}`);
   } catch (error) {
     console.error('Failed to log in:', error);
     process.exit(1);
@@ -45,8 +53,17 @@ async function login() {
 }
 
 /**
+ ██████╗░████████╗██╗░░██╗           
+ ██╔══██╗╚══██╔══╝╚██╗██╔╝          
+ ██████╔╝░░░██║░░░░╚███╔╝░          
+ ██╔══██╗░░░██║░░░░██╔██╗░          
+ ██║░░██║░░░██║░░░██╔╝╚██╗          
+ ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
+GIT : https://github.com/RTX-GAMINGG/Bot-ghost-status-remover-by-RTX
+  DISCORD SERVER : https://discord.gg/FUEHs7RCqz
+  YOUTUBE : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
  * **********************************************
- *   Code by Edison Rees
+ *   Code by RTX GAMING
  * **********************************************
  */
 
@@ -57,7 +74,7 @@ function updateStatusAndSendMessages() {
 
   client.user.setPresence({
     activities: [{ name: currentStatus, type: ActivityType.Custom}],
-    status: 'online',
+    status: 'dnd',
   });
 
   
@@ -92,7 +109,8 @@ console.log(`\x1b[36m%s\x1b[0m`, `|    Verified Params, Checking Gateway Access`
  console.log(`\x1b[36m%s\x1b[0m`, `|    Deploying Cache Load`);
  console.log(`\x1b[36m%s\x1b[0m`, `|    Deploying Completed. System Operational.`);
   updateStatusAndSendMessages();
-}
+
+
   setInterval(() => {
     updateStatusAndSendMessages();
   }, 10000);
@@ -101,7 +119,16 @@ console.log(`\x1b[36m%s\x1b[0m`, `|    Verified Params, Checking Gateway Access`
 login();
 
 /**
+ ██████╗░████████╗██╗░░██╗           
+ ██╔══██╗╚══██╔══╝╚██╗██╔╝          
+ ██████╔╝░░░██║░░░░╚███╔╝░          
+ ██╔══██╗░░░██║░░░░██╔██╗░          
+ ██║░░██║░░░██║░░░██╔╝╚██╗          
+ ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
+GIT : https://github.com/RTX-GAMINGG/Bot-ghost-status-remover-by-RTX
+  DISCORD SERVER : https://discord.gg/FUEHs7RCqz
+  YOUTUBE : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
  * **********************************************
- *   Code by Edison Rees
+ *   Code by RTX GAMING
  * **********************************************
  */
