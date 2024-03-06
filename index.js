@@ -20,7 +20,7 @@ const client = new Client({
 const app = express();
 const port = 3000;
 app.get('/', (req, res) => {
-  res.send('YaY Your Bot Status Changed✨');
+  res.send('Status Changed 200');
 });
 app.listen(port, () => {
 console.log(`Copy 200 Listening On localhost:${port}`);
@@ -58,7 +58,8 @@ function updateStatusAndSendMessages() {
 
   client.user.setPresence({
     activities: [{ name: currentStatus, type: ActivityType.Custom}],
-    status: 'dnd',
+    status: 'online
+    ',
   });
 
   
