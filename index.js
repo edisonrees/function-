@@ -31,12 +31,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to RTX: http://localhost:${port}`);
-  console.log(`🔗 Powered By RTX`);
+console.log(`Copy 200 Listening On localhost:${port}`);
+console.log(`Data Valued 200`);
 });
 
 
-const statusMessages = ["Watching You"];
+const statusMessages = ["Watching Discord"];
 
 
 let currentIndex = 0;
