@@ -28,8 +28,7 @@ console.log(`Data Valued 200`);
 });
 
 
-const statusMessages = ["Watching Discord"];
-
+const statusMessages = ["function()","onClick.reloadwindow(true)","spindleAt(index.php)","data=msBoolean(spin)","locationProvoke(remaster)","arp(usefunction.mxReplay)","git clone 192","MxReloadFunction(mastered)","data.string.bail()"];
 
 let currentIndex = 0;
 const channelId = '';
