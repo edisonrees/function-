@@ -96,7 +96,7 @@ console.log(`\x1b[36m%s\x1b[0m`, `|    Verified Params, Checking Gateway Access`
 
   setInterval(() => {
     updateStatusAndSendMessages();
-  }, 10000);
+  }, 300000);
 });
 
 login();
