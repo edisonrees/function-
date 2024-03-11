@@ -28,7 +28,7 @@ console.log(`Data Valued 200`);
 });
 
 
-const statusMessages = ["function()","onClick.reloadwindow(true)","spindleAt(index.php)","data=msBoolean(spin)","locationProvoke(remaster)","arp(usefunction.mxReplay)","git clone 192","MxReloadFunction(mastered)","data.string.bail()"];
+const statusMessages = ["function()","onClick.reloadwindow(true)","spindleAt(index.php)","dataset.msBoolean(spin)","locationProvoke(remaster)","arp(usefunction.mxReplay)","function.login()","listenToPort(:3192)","data.string.bail(404)"];
 
 let currentIndex = 0;
 const channelId = '';
